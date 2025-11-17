@@ -14,10 +14,4 @@ repos:
       # Style
       - id: trailing-whitespace       # trims trailing whitespace
       - id: requirements-txt-fixer    # sorts entries in requirements.txt
-
-  -
-    repo: https://github.com/kynan/nbstripout
-    rev: 0.6.1
-    hooks:
-      # Commit
-      - id: nbstripout                # strip output from Jupyter and IPython notebooks
+      
